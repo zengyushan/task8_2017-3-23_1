@@ -153,18 +153,38 @@
 
 .vocation-every-right:hover .vocation-hover-bg {
     position: absolute;
-    z-index: 99999999;
+    z-index: 9999;
 
-    width: 3rem;
-    height: 3.5rem;
-
+    width: 100%;
+    height: 3.42rem; /* 此尺寸只在chrome下完美展示 */
+    height: 3.29rem\0; /* 兼容ie8,9 */
     color: #ffffff;
-
     background: url(images/vocation_hover_bg.png);
     background-size: 1.5rem 2rem;
 
     opacity: .8;
     visibility: visible;
+}
+
+/* Firefox css hack */
+@-moz-document url-prefix() {
+    .vocation-every-right:hover .vocation-hover-bg {
+        height: 3.29rem;
+    }
+}
+
+/*ie11 css hack*/
+@media all and (-ms-high-contrast: none) {
+    *::-ms-backdrop, .vocation-every-right:hover .vocation-hover-bg {
+        height: 3.29rem;
+    }
+}
+
+/*ie10 css hack*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .vocation-every-right:hover .vocation-hover-bg {
+        height: 3.29rem;
+    }
 }
 
 .vocation-every-div1 img {
