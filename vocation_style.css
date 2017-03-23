@@ -83,8 +83,8 @@
     position: absolute;
     z-index: 9999;
 
-    width: 2.7rem;
-    height: 3.42rem;
+    width: 100%;
+    height: 3.42rem;/* 此尺寸只在chrome下完美展示 */
 
     color: #ffffff;
     background: url(images/vocation_hover_bg.png);
