@@ -1,0 +1,142 @@
+.company-big-row {
+    background-color: #f1a750;
+}
+
+.company-big-img {
+    display: block;
+    width: 7.1rem;
+}
+
+.company-which-col {
+    height: .7rem;
+    line-height: .7rem;
+}
+
+.company-which-page {
+    font-size: .16rem;
+}
+
+.company-which-page a {
+    font-size: .16rem;
+    color: #333333;
+}
+
+.company-which-page span {
+    color: #29b078;
+}
+
+.company-which-page span a {
+    color: #29b078;
+}
+
+/* 主要的公司内容 */
+.company-content {
+    margin-bottom: 2.3rem;
+}
+
+.company-list-col {
+    margin-right: .2rem;
+    padding-bottom: 0.3rem;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e6e6e6;
+
+    border-radius: 3px; /* 所有角都使用半径为2px的圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 3px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 3px; /* Webkit浏览器的私有属性 */
+}
+
+.company-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: .5rem;
+
+    font-size: .14rem;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.company-list-col ul {
+    margin: 0;
+    padding: 0;
+    margin-top: .25rem;
+}
+
+.company-list-col ul li {
+    display: flex;
+    align-items: center;
+
+    height: .45rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: .14rem;
+
+    color: #f1a750;
+
+    list-style: none;
+}
+
+.company-circle {
+    margin-left: 0.6rem;
+}
+
+.company-every {
+    margin-left: .04rem;
+
+    color: #29b078;
+}
+
+.company-every-tudou {
+    color: #f1a750;
+}
+
+.company-intro-content {
+    width: 6.1rem;
+    height: 10.4rem;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e6e6e6;
+
+    border-radius: 3px; /* 所有角都使用半径为2px的圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 3px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 3px; /* Webkit浏览器的私有属性 */
+}
+
+.company-tudou-simple-intro {
+    width: 7rem;
+    height: 1.5rem;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.company-tudou-logo {
+    display: block;
+    float: left;
+
+    width: 1.7rem;
+    margin-left: 0.2rem;
+}
+
+.company-tudou-simple-word {
+    width: 5.6rem;
+    padding-top: .2rem;
+
+    font-size: .14rem;
+    color: #999999;
+}
+
+.company-tudou-detailed-intro {
+    padding-top: 0.4rem;
+    padding-left: 0.4rem;
+    padding-right: .4rem;
+    line-height: 0.26rem;
+
+    font-size: .14rem;
+    color: #999999;
+}
+

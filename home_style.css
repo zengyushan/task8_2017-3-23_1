@@ -1,0 +1,411 @@
+/* 轮播图结束 */
+.home-carousel {
+    /*border: solid;*/
+    line-height: 1rem;
+}
+
+.home-carousel-indicators-ol {
+    display: flex;
+    justify-content: center;
+}
+
+.home-carousel-indicators-ol li {
+    display: block;
+    float: left;
+}
+
+.home-carousel-caption {
+    height: 2.7rem;
+    font-size: .3rem;
+    text-align: right;
+}
+
+.home-carousel-caption-div1 {
+    font-size: .4rem;
+}
+
+.home-carousel-caption-div2 {
+    font-size: .5rem;
+}
+
+/* 轮播图结束 */
+
+.home-con2 {
+    margin-top: 1rem;
+}
+
+.home-subcon2-row1 div {
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-subcon2-row1-col-div-three-title {
+    text-align: center;
+
+    height: 1.2rem;
+    line-height: 1.8rem;
+
+    font-size: .18rem;
+}
+
+.home-subcon2-row1-col-div-three-intro {
+    height: .8rem;
+
+    font-size: .138rem;
+    color: #999999;
+}
+
+.home-subcon2-row1-col-div-three-intro div {
+    margin-top: .05rem;
+}
+
+.home-subcon2-row1-col1-div1 {
+    width: .45rem;
+
+    background: url(images/home_page_rocket.png) no-repeat;
+    background-size: .4rem .6rem;
+}
+
+.home-subcon2-row1-col2-div1 {
+    width: .6rem;
+
+    background: url(images/home_page_archive.png) no-repeat;
+    background-size: .5rem .4rem;
+    background-position-y: .15rem;
+}
+
+.home-subcon2-row1-col3-div1 {
+    width: .55rem;
+
+    background: url(images/home_page_connection.png) no-repeat;
+    background-size: .5rem .5rem;
+    background-position-y: .06rem;
+}
+
+.home-subcon2-row1-col3 {
+    border-right: 2px dashed #dedede;
+}
+
+.home-subcon2-row1-col4-div {
+    margin-top: .55rem;
+}
+
+.home-subcon2-row1-col4-num {
+    color: #29b078;
+
+    font-size: .16rem;
+
+    background: url(images/home_page_person_num_icon.png) no-repeat;
+    background-position: left;
+}
+
+.home-subcon2-row1-col4-class-num div {
+    margin-left: .25rem;
+}
+
+.home-subcon2-row1-col4-num-hint {
+    font-size: .16rem;
+    color: #999999;
+    margin-top: .05rem;
+    margin-bottom: .05rem;
+}
+
+.home-subcon2-row1-col4-job-num div {
+    margin-left: .25rem;
+}
+
+.home-how-to-learn-word {
+    margin-top: .5rem;
+    margin-bottom: .4rem;
+    font-size: .18rem;
+    text-align: center;
+}
+
+.home-con2-row2 {
+    margin-bottom: .3rem;
+}
+
+.home-con2-row2-col2-subcon-subrow div {
+    font-size: .1rem;
+    display: flex;
+    align-items: center;
+}
+
+.home-how-to-learn-step-left {
+    width: 22%;
+}
+
+.home-how-to-learn-step-right {
+    width: 26%;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-arrow {
+    width: .2rem;
+    height: .17rem;
+    margin-right: .1rem;
+    margin-left: 0.05rem;
+
+    background: url(images/home_page_howtolearn_arrow.png) no-repeat;
+    background-size: .15rem .15rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-word {
+    float: right;
+
+    width: 1.2rem;
+    margin-left: .1rem;
+
+    color: #a1a1a1;
+
+    white-space: normal; /* 自动换行 */
+}
+
+.home-step-icon {
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-step-icon1 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 0;
+}
+
+.home-step-icon2 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 14%;
+}
+
+.home-step-icon3 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 29%;
+}
+
+.home-step-icon4 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 43%;
+}
+
+.home-step-icon5 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 57%;
+}
+
+.home-step-icon6 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 72%;
+}
+
+.home-step-icon7 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 86%;
+}
+
+.home-step-icon8 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 100%;
+}
+
+/* 优秀学员展示 */
+.home-good-stu-title {
+    text-align: center;
+
+    margin-top: .6rem;
+    margin-bottom: .3rem;
+
+    font-size: .18rem;
+}
+
+.home-con2-row3-subrow-content div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-include-advisor {
+    padding-left: .2rem;
+    padding-right: .2rem;
+    padding-bottom: .2rem;
+
+    background-color: #ffffff;
+    border: 1px solid #eeeded;
+}
+
+.home-con2-row3-subrow-content-subcol-name {
+    margin-top: .15rem;
+    width: 1.23rem;
+    height: 1.7rem;
+    line-height: 2.8rem;
+
+    font-size: .16rem;
+}
+
+.home-con2-row3-subrow-content-subcol-name1 {
+    background: url(images/home_page_student1.png) no-repeat;
+    background-position: center top;
+}
+
+.home-con2-row3-subrow-content-subcol-name2 {
+    background: url(images/home_page_student2.png) no-repeat;
+    background-position: center top;
+}
+
+.home-con2-row3-subrow-content-subcol-name3 {
+    background: url(images/home_page_student3.png) no-repeat;
+    background-position: center top;
+}
+
+.home-con2-row3-subrow-content-subcol-name4 {
+    background: url(images/home_page_student4.png) no-repeat;
+    background-position: center top;
+}
+
+.home-con2-row3-subrow-content-subcol-intro {
+    font-size: .14rem;
+
+    color: #b0b0b0;
+}
+
+/* 优秀学员展示结束 */
+
+.home-all-circle {
+    /*border: solid;*/
+    list-style: none;
+    /* display: inline-block; */
+    margin-top: .1rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    /*text-align: center;*/
+    height: .22rem;
+    width: .8rem;
+
+}
+
+/* 轮播圆点 */
+.home-circle {
+    float: left;
+    margin-right: .08rem;
+
+    border: 1px solid #e9e8e9;
+    border-radius: 50%;
+    width: .14rem;
+    height: .14rem;
+}
+
+.home-circle-left {
+    background-color: #29b078;
+}
+
+.home-circle-center,.home-circle-right {
+    background-color: #ffffff;
+}
+.home-circle-right {
+    margin-right: 0;
+}
+
+
+/* 合作企业 */
+.home-company-title {
+    margin-top: 1rem;
+    margin-bottom: .6rem;
+    font-size: .18rem;
+    text-align: center;
+}
+
+.home-company-row {
+    margin-bottom: 1rem;
+}
+
+.home-company-lr {
+    width: 16.65%;
+}
+
+.home-company-subcon {
+    width: 100%;
+}
+
+.home-company-subrow {
+    background-color: #ffffff;
+}
+
+.home-company {
+    width: 20%;
+    height: 1.3rem;
+}
+
+.home-company:hover {
+    -webkit-box-shadow: 0 0 15px #f1f1f1;
+    -moz-box-shadow: 0 0 15px #f1f1f1;
+    box-shadow: 0 0 15px #f1f1f1;
+}
+
+.home-company img {
+    width: 100%;
+}
+
+.home-company1 {
+    background: url(images/home_page_alibaba.png) no-repeat;
+    background-position: center;
+    background-size: 1.5rem 1.4rem;
+}
+
+.home-company2 {
+    background: url(images/home_page_jinshan.png) no-repeat;
+    background-position: center;
+    background-size: .5rem .5rem;
+}
+
+.home-company3 {
+    background: url(images/home_page_huanxin.png) no-repeat;
+    background-position: center;
+    background-size: 1.3rem 1.1rem;
+}
+
+.home-company4 {
+    background: url(images/home_page_ronglian.png) no-repeat;
+    background-position: center;
+    background-size: 1.6rem 1.7rem;
+}
+
+.home-company5 {
+    background: url(images/home_page_qiniu.png) no-repeat;
+    background-position: center;
+    background-size: .9rem .9rem;
+}
+
+/* 友情链接 */
+.home-other-links {
+    background-color: #ffffff;
+    font-size: .18rem;
+    text-align: center;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.home-other-link-div {
+    width: 10%;
+}
+
+.home-other-link {
+    display: inline-block;
+    float: left;
+    font-size: .12rem;
+    color: #999999;
+}
+
+.home-other-link-row {
+    background-color: #ffffff;
+}
+
+.home-other-link-row2 {
+    padding-bottom: .2rem;
+}

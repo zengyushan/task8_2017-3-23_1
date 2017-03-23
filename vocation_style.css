@@ -1,0 +1,276 @@
+.vocation-which-page {
+    height: .7rem;
+    line-height: .7rem;
+
+    font-size: .16rem;
+
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.vocation-which-page a {
+    height: .7rem;
+    line-height: .7rem;
+
+    font-size: .16rem;
+
+    color: #333333;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.vocation-which-page span a {
+    color: #29b078;
+}
+
+.vocation-direction-col-center {
+    height: .5rem;
+    line-height: .5rem;
+
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-direction-div {
+    font-size: .14rem;
+}
+
+.vocation-direction-div span {
+    margin-right: .1rem;
+}
+
+.vocation-direction-div a {
+    color: #333333;
+}
+
+.vocation-direction {
+    color: #a1a1a1;
+}
+
+.vocation-all {
+    color: #ffffff;
+
+    background-color: #29b078;
+}
+
+.vocation-front-end-col {
+    height: .7rem;
+    line-height: .7rem;
+
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.vocation-front-end-title {
+    font-size: .16rem;
+}
+
+.vocation-list {
+    margin-top: .5rem;
+}
+
+.vocation-every {
+    position: relative;
+
+    margin-right: 0.13rem;
+    width: 32.2%;
+
+    border: 1px solid #eeeded;
+    background-color: #ffffff;
+
+    border-radius: 3px; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 3px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 3px; /* Webkit浏览器的私有属性 */
+}
+
+.vocation-every:hover .vocation-hover-bg {
+    position: absolute;
+    z-index: 9999;
+
+    width: 2.7rem;
+    height: 3.42rem;
+
+    color: #ffffff;
+    background: url(images/vocation_hover_bg.png);
+    background-size: 1.5rem 2rem;
+
+    opacity: .8;
+    visibility: visible;
+}
+
+.vocation-hover-bg {
+    position: absolute;
+
+    visibility: hidden;
+}
+
+.vocation-hover-bg-title {
+    width: .8rem;
+    margin-top: .6rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: .13rem;
+}
+
+.vocation-hover-bg-content {
+    width: 2.4rem;
+    margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: .13rem;
+}
+
+.vocation-every-right {
+
+    width: 32.4%;
+
+    background-color: #ffffff;
+    border: 1px solid #eeeded;
+
+    border-radius: 3px; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 3px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 3px; /* Webkit浏览器的私有属性 */
+}
+
+.vocation-every-right:hover .vocation-hover-bg {
+    position: absolute;
+    z-index: 99999999;
+
+    width: 3rem;
+    height: 3.5rem;
+
+    color: #ffffff;
+
+    background: url(images/vocation_hover_bg.png);
+    background-size: 1.5rem 2rem;
+
+    opacity: .8;
+    visibility: visible;
+}
+
+.vocation-every-div1 img {
+    display: block;
+    float: left;
+
+    width: 1rem;
+    height: 1rem;
+    margin-left: .07rem;
+    margin-top: .1rem;
+}
+
+.vocation-every-name {
+    width: 2.85rem;
+    padding-top: .15rem;
+    padding-left: 1.15rem;
+
+    font-size: .14rem;
+}
+
+.vocation-every-intro {
+    width: 2.6rem;
+    padding-top: .07rem;
+    padding-left: 1.15rem;
+    margin-bottom: .2rem;
+
+    font-size: .1rem;
+}
+
+.vocation-four-word-height {
+    height: 0.3rem;
+    line-height: .3rem;
+    padding-left: .06rem;
+
+    font-size: .1rem;
+
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-sill {
+    background: url(images/vocation_star.png) .35rem no-repeat;
+    background-size: .13rem .13rem;
+    border-top: 1px solid #edf1f2;
+    border-right: 1px solid #edf1f2;
+}
+
+.vocation-difficulty {
+    background: url(images/vocation_star.png) .55rem no-repeat,
+    url(images/vocation_star.png) .75rem no-repeat;
+    background-size: .13rem .13rem;
+
+    border-top: 1px solid #edf1f2;
+}
+
+.vocation-growth-cycle {
+    font-size: .1rem;
+
+    border-right: 1px solid #edf1f2;
+}
+
+.vocation-growth-cycle span {
+    color: #f01400;
+}
+
+.vocation-degree {
+    font-size: .1rem;
+}
+
+.vocation-degree span {
+    color: #f01400;
+}
+
+.vocation-salary-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: .9rem;
+
+    font-size: .1rem;
+
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-salary {
+    height: .3rem;
+    padding-left: .08rem;
+    line-height: .3rem;
+
+    font-size: .1rem;
+
+    border-left: 1px solid #edf1f2;
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-salary span {
+    float: right;
+
+    margin-right: .1rem;
+}
+
+.vocation-stu-num {
+    height: .3rem;
+    line-height: .3rem;
+    padding-left: .08rem;
+
+    font-size: .11rem;
+
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-stu-num span {
+    height: .25rem;
+    line-height: .25rem;
+
+    color: #f01400;
+}
+
+.vocation-base-learn {
+    height: .3rem;
+    line-height: .3rem;
+    padding-left: .08rem;
+
+    font-size: .084rem;
+    color: #a9a9a9;
+}
+
+.vocation-last-space {
+    height: 1.8rem;
+}
